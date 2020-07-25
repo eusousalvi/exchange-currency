@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="./_css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <h1 class="header__title">Exchange</h1>
+            <img class="header__logo" src="./img/logo.png" alt="Logo Exchange">
+        </header>
+
+        <div class="currency">
+
+            <section class="currency__spot">
+                <select class="spot__select" name="primarySelect" id="primarySelect">
+
+                </select>
+                <input id="primaryCurrency" name="primaryCurrency" class="spot__input" type="number"
+                    placeholder="value">
+            </section>
+
+            <div class="equals">=</div>
+
+            <section class="currency__spot">
+                <select class="spot__select" name="secondarySelect" id="secondarySelect">
+                </select>
+                <input id="secondCurrency" name="secondCurrency" class="spot__input" type="number" placeholder="value">
+            </section>
+
+            <a id="swap" class="currency__swap" href="#"></a>
+
+        </div>
+    </main>
+    <script src="./_js/main.js"></script>
+</body>
+
+</html>
